@@ -1,0 +1,75 @@
+Datos: train 884 frases, test 222 frases
+Modelo entrenado. Caracteristicas TF-IDF: 7850
+
+=== TEST ===
+Accuracy: 0.9730
+F1 macro: 0.9756
+
+Reporte por clase:
+                  precision    recall  f1-score   support
+
+          saludo      0.909     1.000     0.952        20
+        encender      0.974     1.000     0.987        37
+          apagar      0.971     0.944     0.958        36
+     apagar_todo      1.000     0.952     0.976        21
+       descansar      1.000     1.000     1.000        19
+consultar_estado      1.000     1.000     1.000        20
+       agradecer      1.000     0.944     0.971        18
+fuera_de_dominio      0.961     0.961     0.961        51
+
+        accuracy                          0.973       222
+       macro avg      0.977     0.975     0.976       222
+    weighted avg      0.974     0.973     0.973       222
+
+Matriz de confusion (filas = real, columnas = prediccion):
+                        0    1    2    3    4    5    6    7
+   0 saludo            20    0    0    0    0    0    0    0
+   1 encender           0   37    0    0    0    0    0    0
+   2 apagar             0    1   34    0    0    0    0    1
+   3 apagar_todo        0    0    1   20    0    0    0    0
+   4 descansar          0    0    0    0   19    0    0    0
+   5 consultar_estado    0    0    0    0    0   20    0    0
+   6 agradecer          0    0    0    0    0    0   17    1
+   7 fuera_de_dominio    2    0    0    0    0    0    0   49
+
+Acierto por origen (test):
+  massive     57/ 60 = 0.9500
+  sintetica  119/119 = 1.0000
+  generada    40/ 43 = 0.9302
+
+Frases de test falladas: 6 (se muestran maximo 30)
+  'desenchufa el cautin'  real=apagar  pred=encender  conf=0.43
+  'eres el mejor'  real=agradecer  pred=fuera_de_dominio  conf=0.35
+  'que cancion escucho mas'  real=fuera_de_dominio  pred=saludo  conf=0.37
+  'apague el wifi cuando salga de casa para ahorrar energia'  real=apagar  pred=fuera_de_dominio  conf=0.50
+  'que cosas no puedes hacer'  real=fuera_de_dominio  pred=saludo  conf=0.20
+  'apaga todas las cosas'  real=apagar_todo  pred=apagar  conf=0.46
+
+=== FRASES DE LA DEMO (22) ===
+  #  frase                                         esperada          prediccion         conf  ok
+   1 Tengo mucho calor, prende el ventilador.      encender          encender           0.89  SI
+   2 Prende la luz, por favor.                     encender          encender           0.77  SI
+   3 Uy, qué oscuridad tan tremenda.               encender          encender           0.64  SI
+   4 Préndeme la plancha del pelo, por favor.      encender          encender           0.77  SI
+   5 Enciende el bombillo y el ventilador.         encender          encender           0.85  SI
+   6 Me estoy muriendo de calor.                   encender          encender           0.54  SI
+   7 Ya apágame ese ventilador, por favor.         apagar            apagar             0.72  SI
+   8 Ya puedes apagarlo.                           apagar            apagar             0.59  SI
+   9 Uy, qué frío está haciendo.                   apagar            apagar             0.55  SI
+  10 Apaga la luz, que quiero dormir.              apagar            apagar             0.79  SI
+  11 Ya apaga ese cautín.                          apagar            apagar             0.72  SI
+  12 Apaga todo, por favor.                        apagar_todo       apagar_todo        0.91  SI
+  13 Me voy a dormir, apaga todo.                  apagar_todo       apagar_todo        0.82  SI
+  14 Puedes descansar.                             descansar         descansar          0.89  SI
+  15 Eso es todo por hoy, vete a descansar.        descansar         descansar          0.94  SI
+  16 Hola, ¿qué más pues?                          saludo            saludo             0.83  SI
+  17 Buenos días, ¿qué vamos a hacer hoy?          saludo            saludo             0.57  SI
+  18 ¿Qué aparatos quedaron prendidos?             consultar_estado  consultar_estado   0.61  SI
+  19 ¿El ventilador está encendido?                consultar_estado  consultar_estado   0.87  SI
+  20 Muchas gracias, muy amable.                   agradecer         agradecer          0.97  SI
+  21 ¿Cómo va a estar el tráfico hoy?              fuera_de_dominio  fuera_de_dominio   0.56  SI
+  22 Mañana compro otro ventilador.                fuera_de_dominio  fuera_de_dominio   0.72  SI
+Acierto demo: 22/22 = 1.0000
+
+Imagen: resultados\candidato_aparatos\base_matriz_confusion.png
+Guardados modelos\candidato_aparatos/base.joblib y base_info.json

@@ -1,0 +1,54 @@
+{
+  "modelo": "TF-IDF (palabras 1-2 + caracteres char_wb 2-5) + LogisticRegression(class_weight=balanced)",
+  "intenciones": [
+    "agradecer",
+    "apagar",
+    "apagar_todo",
+    "consultar_estado",
+    "descansar",
+    "encender",
+    "fuera_de_dominio",
+    "saludo"
+  ],
+  "fecha": "2026-10-13 19:43:52",
+  "dataset": {
+    "train": 890,
+    "test": 223,
+    "train_por_intencion": {
+      "descansar": 77,
+      "fuera_de_dominio": 205,
+      "agradecer": 74,
+      "encender": 146,
+      "apagar_todo": 81,
+      "apagar": 141,
+      "consultar_estado": 85,
+      "saludo": 81
+    }
+  },
+  "metricas_test": {
+    "accuracy": 0.9776,
+    "f1_macro": 0.9759,
+    "por_origen": {
+      "massive": {
+        "aciertos": 57,
+        "total": 60,
+        "acierto": 0.95
+      },
+      "sintetica": {
+        "aciertos": 117,
+        "total": 117,
+        "acierto": 1.0
+      },
+      "generada": {
+        "aciertos": 44,
+        "total": 46,
+        "acierto": 0.9565
+      }
+    }
+  },
+  "demo": {
+    "aciertos": 22,
+    "total": 22,
+    "acierto": 1.0
+  }
+}

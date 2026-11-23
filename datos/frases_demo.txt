@@ -1,0 +1,22 @@
+Tengo mucho calor, prende el ventilador.;encender
+Prende la luz, por favor.;encender
+Uy, qué oscuridad tan tremenda.;encender
+Préndeme la plancha del pelo, por favor.;encender
+Enciende el bombillo y el ventilador.;encender
+Me estoy muriendo de calor.;encender
+Ya apágame ese ventilador, por favor.;apagar
+Ya puedes apagarlo.;apagar
+Uy, qué frío está haciendo.;apagar
+Apaga la luz, que quiero dormir.;apagar
+Ya apaga ese cautín.;apagar
+Apaga todo, por favor.;apagar_todo
+Me voy a dormir, apaga todo.;apagar_todo
+Puedes descansar.;descansar
+Eso es todo por hoy, vete a descansar.;descansar
+Hola, ¿qué más pues?;saludo
+Buenos días, ¿qué vamos a hacer hoy?;saludo
+¿Qué aparatos quedaron prendidos?;consultar_estado
+¿El ventilador está encendido?;consultar_estado
+Muchas gracias, muy amable.;agradecer
+¿Cómo va a estar el tráfico hoy?;fuera_de_dominio
+Mañana compro otro ventilador.;fuera_de_dominio

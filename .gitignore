@@ -1,0 +1,122 @@
+# ============================================================
+#  .gitignore de Doby
+#  Regla general: NINGÚN audio, NINGUNA huella de voz, ningún modelo descargado,
+#  ningún secreto y ninguna nota interna. Las carpetas de audio y de huellas se
+#  suben vacías, solo con su LEEME.md.
+# ============================================================
+
+# ---------- 1. Audios (en cualquier carpeta) ----------
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.ogg
+*.oga
+*.mpeg
+*.mpga
+*.flac
+*.opus
+*.aac
+*.wma
+*.aif
+*.aiff
+*.3gp
+*.amr
+*.webm
+*.mkv
+
+# ---------- 2. Huellas de voz (biométricas) y modelos con pesos ----------
+*.npy
+*.npz
+*.pt
+*.pth
+*.pkl
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+embeddings.joblib
+clasificador.joblib
+centroides*
+hablantes.json
+
+# ---------- 3. Modelos descargados o que no carga Doby ----------
+modelos/ecapa-voxceleb/
+modelos/f5-spanish/
+modelos/candidato_aparatos*/
+modelos/hablantes/*
+!modelos/hablantes/LEEME.md
+# (SÍ se suben: modelos/base.joblib y modelos/base_info.json)
+
+# ---------- 4. Carpetas de audio y de datos de voz: solo los LEEME.md ----------
+datos_voz/**
+!datos_voz/**/
+!datos_voz/**/LEEME.md
+
+voz_cache/**
+!voz_cache/**/
+!voz_cache/LEEME.md
+!voz_cache/hora/LEEME.md
+
+voz_cache_f5/**
+!voz_cache_f5/**/
+!voz_cache_f5/LEEME.md
+
+voz_comparacion_f5/**
+!voz_comparacion_f5/**/
+!voz_comparacion_f5/referencias/LEEME.md
+
+voz_cache_clonada/
+voz_comparacion/
+voz_comparacion2/
+
+# ---------- 5. Datos de terceros y documentos con datos personales ----------
+datos/massive/
+datos/guion_voces/*.pdf
+
+# ---------- 6. Resultados: solo los del clasificador (base_* y candidato_*) ----------
+resultados/*
+!resultados/base_*
+!resultados/candidato_aparatos/
+!resultados/candidato_aparatos2/
+
+# ---------- 7. Lo que no se publica ----------
+informe/
+logs/
+respaldos/
+entrenamiento/experimentos_voz/
+GUIA_VIERNES.md
+PLAN_MANANA*.md
+
+# Usan nombres de carpetas de datos reales de los integrantes (decidido: no se suben).
+# referencias_voz_f5.json se sube como plantilla: entrenamiento/referencias_voz_f5.ejemplo.json
+entrenamiento/referencias_voz_f5.json
+entrenamiento/evaluar_hablantes.py
+entrenamiento/generar_hora_noche.py
+pruebas/traza_regresion.json
+pruebas/prueba_verificacion.py
+pruebas/prueba_verificacion_casos.py
+pruebas/prueba_voz_f5.py
+pruebas/prueba_whisper_aparatos.py
+CLAUDE.md
+*.log
+
+# ---------- 8. Secretos ----------
+esp32/secretos.py
+secretos.py
+.env
+restricciones_sistema.txt
+
+# ---------- 9. Entornos, cachés y editores ----------
+venv/
+venv_f5/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

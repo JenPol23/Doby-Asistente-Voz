@@ -1,0 +1,9 @@
+real \ prediccion,saludo,encender,apagar,apagar_todo,descansar,consultar_estado,agradecer,fuera_de_dominio
+saludo,19,0,0,1,0,0,0,0
+encender,0,37,0,0,0,0,0,0
+apagar,0,0,36,0,0,0,0,0
+apagar_todo,0,0,1,20,0,0,0,0
+descansar,0,0,0,0,19,0,0,0
+consultar_estado,0,0,0,0,0,21,0,0
+agradecer,0,0,0,0,0,0,17,1
+fuera_de_dominio,2,0,0,0,0,0,0,49

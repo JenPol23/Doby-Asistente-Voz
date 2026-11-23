@@ -1,0 +1,29 @@
+# Doby - dependencias del PC (Python 3.11, Windows). Versiones con las que se probo el proyecto.
+#
+# torch y torchaudio con CUDA 12.8 se instalan desde el indice de PyTorch, ANTES que el resto:
+#   py -m pip install torch==2.11.0 torchaudio==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+# Despues:
+#   py -m pip install -r requirements.txt
+# (Sin GPU NVIDIA: instalar torch/torchaudio para CPU; Whisper cae solo a CPU int8, mas lento.)
+
+# --- Doby (pc/) ---
+numpy==2.4.6
+scipy==1.17.1            # tts.py: resample_poly y filtro pasa-altos
+scikit-learn==1.9.0      # el modelo de intenciones (modelos/base.joblib) se guardo con esta version
+joblib==1.6.0
+faster-whisper==1.2.1    # Whisper medium (stt.py)
+ctranslate2==4.8.2       # motor de faster-whisper
+speechbrain==1.1.1       # ECAPA-TDNN (entrenamiento/hablantes.py, la usa pc/verificador.py)
+huggingface_hub==0.36.2
+tzdata==2026.4           # zoneinfo "America/Bogota" en Windows (hora.py)
+gTTS==2.2.4              # voz normal: solo al generar voz_cache/ (necesita internet una vez)
+pygame==2.6.1            # tts.py: decodifica el MP3 de gTTS
+
+# --- Entrenamiento y evaluacion (entrenamiento/) ---
+pandas==3.0.6            # evaluar_hablantes.py (no incluido en el repositorio)
+matplotlib==3.11.1       # graficas y matrices de confusion
+av==18.1.0               # validar_audios.py: lee m4a/mp3/mpeg del celular sin FFmpeg
+
+# --- Opcional: XTTS v2 (entrenamiento/generar_voces_clonadas.py, voz descartada; Doby no la usa) ---
+# coqui-tts==0.27.5
+# transformers==4.57.6

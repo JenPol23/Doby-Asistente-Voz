@@ -1,0 +1,17 @@
+# Doby - entorno venv_f5: solo para GENERAR las voces clonadas con F5-TTS
+# (entrenamiento/generar_voces_f5.py y entrenamiento/generar_hora.py --persona).
+# Doby NO usa este entorno al correr.
+#
+# venv_f5 usa los paquetes del sistema (torch, torchaudio, numpy, scipy, soundfile, faster-whisper...):
+# primero instalar requirements.txt en el Python del sistema y despues:
+#   py -m venv --system-site-packages venv_f5
+#   venv_f5\Scripts\python.exe -m pip install -r requirements_f5.txt -c restricciones_sistema.txt
+# donde restricciones_sistema.txt fija lo que NO debe cambiar en el sistema; se crea con:
+#   py -m pip freeze --all > restricciones_sistema.txt
+# Motivo del venv aparte: f5-tts 1.1.22 exige huggingface_hub >= 1.16 (via gradio), incompatible con
+# el transformers 4.57.6 / huggingface_hub 0.36.2 del sistema.
+
+f5-tts==1.1.22
+# Quedan instalados con el (versiones de la prueba): omegaconf 2.3.1, vocos 0.1.0, cached_path 1.8.10,
+# transformers 5.18.0 y huggingface_hub 1.33.0 dentro de venv_f5.
+soundfile==0.14.0        # generar_voces_f5.py lee las referencias con soundfile (sin FFmpeg)

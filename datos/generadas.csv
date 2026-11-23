@@ -1,0 +1,225 @@
+texto,intencion,origen
+hola,saludo,generada
+hola cómo estás,saludo,generada
+buenos días,saludo,generada
+buenas tardes,saludo,generada
+buenas noches,saludo,generada
+qué más,saludo,generada
+quiubo,saludo,generada
+quiubo pues,saludo,generada
+qué hubo,saludo,generada
+hola qué más,saludo,generada
+qué hay de nuevo,saludo,generada
+buenas,saludo,generada
+hola cómo vas,saludo,generada
+cómo estás hoy,saludo,generada
+qué cuentas,saludo,generada
+hola parce,saludo,generada
+ey qué más pues,saludo,generada
+hola estás ahí,saludo,generada
+estás ahí,saludo,generada
+me escuchas,saludo,generada
+despierta,saludo,generada
+hola buen día,saludo,generada
+qué tal,saludo,generada
+cómo te ha ido,saludo,generada
+hola cómo amaneciste,saludo,generada
+prende el ventilador,encender,generada
+préndeme el ventilador,encender,generada
+enciende el bombillo,encender,generada
+prende la luz,encender,generada
+préndeme la luz porfa,encender,generada
+enciende las luces,encender,generada
+prende el foco,encender,generada
+enciende el abanico,encender,generada
+prende el cautín,encender,generada
+préndeme la planchita,encender,generada
+enciende el soldador,encender,generada
+prende la plancha del pelo,encender,generada
+tengo mucho calor,encender,generada
+qué calor tan berraco,encender,generada
+me estoy asando,encender,generada
+hace un calor terrible,encender,generada
+está muy oscuro,encender,generada
+no veo nada acá,encender,generada
+préndelo,encender,generada
+enciéndelo,encender,generada
+préndela,encender,generada
+dale prende el ventilador,encender,generada
+por favor enciende la bombilla,encender,generada
+activa el ventilador,encender,generada
+dale prende el cautín,encender,generada
+me estoy muriendo del calor prende el abanico,encender,generada
+necesito luz,encender,generada
+quiero que prendas el bombillo,encender,generada
+podrías encender el ventilador,encender,generada
+prende la luz y el ventilador,encender,generada
+enciende el bombillo y la plancha,encender,generada
+apaga el ventilador,apagar,generada
+apágame el ventilador,apagar,generada
+apaga el bombillo,apagar,generada
+apaga la luz,apagar,generada
+apaga las luces,apagar,generada
+apaga todas las luces,apagar,generada
+apaga el foco,apagar,generada
+apaga el abanico,apagar,generada
+apágame el cautín,apagar,generada
+apaga la planchita,apagar,generada
+apaga el soldador,apagar,generada
+apaga la alisadora,apagar,generada
+apágalo,apagar,generada
+apágala,apagar,generada
+tengo frío,apagar,generada
+qué frío tan berraco,apagar,generada
+me estoy congelando,apagar,generada
+hace mucho frío aquí,apagar,generada
+ya no quiero luz,apagar,generada
+quita la luz,apagar,generada
+apaga la bombilla por favor,apagar,generada
+desactiva el ventilador,apagar,generada
+ya apaga el ventilador,apagar,generada
+podrías apagar el bombillo,apagar,generada
+quiero que apagues la plancha,apagar,generada
+"apaga el cautín, por favor",apagar,generada
+detén el ventilador,apagar,generada
+apaga la luz y el ventilador,apagar,generada
+ya no necesito el ventilador,apagar,generada
+la luz me molesta apágala,apagar,generada
+apaga todo,apagar_todo,generada
+apágalo todo,apagar_todo,generada
+apaga todos los aparatos,apagar_todo,generada
+desconecta todo,apagar_todo,generada
+apaga todas las cosas,apagar_todo,generada
+ya apaga todo que me voy,apagar_todo,generada
+ya me voy a acostar apaga todo,apagar_todo,generada
+apaga todo y descansa,apagar_todo,generada
+apaga todo lo que esté prendido,apagar_todo,generada
+apaga todos los dispositivos,apagar_todo,generada
+quiero todo apagado,apagar_todo,generada
+deja todo apagado,apagar_todo,generada
+apaga la casa entera,apagar_todo,generada
+apaga absolutamente todo,apagar_todo,generada
+todo apagado,apagar_todo,generada
+me voy de la casa apaga todo,apagar_todo,generada
+apágame todo,apagar_todo,generada
+ya terminamos apaga todo,apagar_todo,generada
+apaga todo de una vez,apagar_todo,generada
+pon todo en apagado,apagar_todo,generada
+desactiva todo,apagar_todo,generada
+cierra todo y apágalo,apagar_todo,generada
+apaga todos los relés,apagar_todo,generada
+nos vamos apaga todo,apagar_todo,generada
+apaga todo lo que haya,apagar_todo,generada
+descansa,descansar,generada
+ve a descansar,descansar,generada
+vete a dormir,descansar,generada
+a dormir,descansar,generada
+duérmete,descansar,generada
+ya no te necesito,descansar,generada
+eso es todo,descansar,generada
+eso es todo por ahora,descansar,generada
+ya puedes descansar,descansar,generada
+listo descansa,descansar,generada
+nada más,descansar,generada
+no necesito nada más,descansar,generada
+hasta luego,descansar,generada
+chao,descansar,generada
+nos vemos,descansar,generada
+adiós,descansar,generada
+descansa un rato,descansar,generada
+tómate un descanso,descansar,generada
+ya terminamos,descansar,generada
+modo descanso,descansar,generada
+silencio por ahora,descansar,generada
+luego te llamo,descansar,generada
+por ahora es todo,descansar,generada
+te aviso si te necesito,descansar,generada
+ya puedes irte a dormir,descansar,generada
+qué está prendido,consultar_estado,generada
+qué está encendido,consultar_estado,generada
+está prendido el ventilador,consultar_estado,generada
+el bombillo está encendido,consultar_estado,generada
+cómo están los aparatos,consultar_estado,generada
+qué aparatos están prendidos,consultar_estado,generada
+está apagada la luz,consultar_estado,generada
+dejé prendida la plancha,consultar_estado,generada
+el ventilador sigue prendido,consultar_estado,generada
+hay algo prendido,consultar_estado,generada
+qué está apagado,consultar_estado,generada
+cuál está encendido,consultar_estado,generada
+dime qué está prendido,consultar_estado,generada
+estado de los aparatos,consultar_estado,generada
+la luz está prendida o apagada,consultar_estado,generada
+todo está apagado,consultar_estado,generada
+cómo está el ventilador,consultar_estado,generada
+el cautín sigue encendido,consultar_estado,generada
+cómo está el bombillo,consultar_estado,generada
+cómo está el foco,consultar_estado,generada
+cómo está el abanico,consultar_estado,generada
+cómo está el cautín,consultar_estado,generada
+y el soldador cómo está,consultar_estado,generada
+cómo está la plancha,consultar_estado,generada
+cómo está la planchita,consultar_estado,generada
+cómo está la alisadora,consultar_estado,generada
+revisa qué está encendido,consultar_estado,generada
+me dices si la luz está prendida,consultar_estado,generada
+qué tienes prendido,consultar_estado,generada
+cómo quedó todo,consultar_estado,generada
+está encendido el abanico,consultar_estado,generada
+quedó algo encendido,consultar_estado,generada
+qué dispositivos están activos,consultar_estado,generada
+gracias,agradecer,generada
+muchas gracias,agradecer,generada
+mil gracias,agradecer,generada
+gracias parce,agradecer,generada
+muy amable,agradecer,generada
+te lo agradezco,agradecer,generada
+qué bien gracias,agradecer,generada
+perfecto gracias,agradecer,generada
+listo gracias,agradecer,generada
+gracias por todo,agradecer,generada
+eres el mejor,agradecer,generada
+excelente,agradecer,generada
+buenísimo gracias,agradecer,generada
+muy bien hecho,agradecer,generada
+qué chévere,agradecer,generada
+bacano gracias,agradecer,generada
+gracias hermano,agradecer,generada
+te pasaste,agradecer,generada
+genial,agradecer,generada
+qué amable,agradecer,generada
+de una gracias,agradecer,generada
+gracias por la ayuda,agradecer,generada
+dios le pague,agradecer,generada
+chévere,agradecer,generada
+gracias muy amable,agradecer,generada
+el ventilador es blanco,fuera_de_dominio,generada
+mañana compro otro bombillo,fuera_de_dominio,generada
+el cautín es de sesenta vatios,fuera_de_dominio,generada
+ese bombillo me costó cinco mil pesos,fuera_de_dominio,generada
+cuánto consume un ventilador,fuera_de_dominio,generada
+mi abuela tiene un abanico viejo,fuera_de_dominio,generada
+el foco es de color amarillo,fuera_de_dominio,generada
+la plancha de mi hermana es rosada,fuera_de_dominio,generada
+dónde compro un ventilador,fuera_de_dominio,generada
+la luz de la calle está dañada,fuera_de_dominio,generada
+la punta del cautín está gastada,fuera_de_dominio,generada
+se fue la luz en el barrio,fuera_de_dominio,generada
+qué hora es,fuera_de_dominio,generada
+cómo va a estar el clima mañana,fuera_de_dominio,generada
+cuéntame un chiste,fuera_de_dominio,generada
+pon música,fuera_de_dominio,generada
+cuál es la capital de Francia,fuera_de_dominio,generada
+cuánto es dos más dos,fuera_de_dominio,generada
+quién ganó el partido,fuera_de_dominio,generada
+qué día es hoy,fuera_de_dominio,generada
+llama a mi mamá,fuera_de_dominio,generada
+pide una pizza,fuera_de_dominio,generada
+tengo hambre,fuera_de_dominio,generada
+estoy aburrido,fuera_de_dominio,generada
+me duele la cabeza,fuera_de_dominio,generada
+hablemos de fútbol,fuera_de_dominio,generada
+escribe un mensaje a Juan,fuera_de_dominio,generada
+cómo se dice hola en inglés,fuera_de_dominio,generada
+qué es el procesamiento de lenguaje natural,fuera_de_dominio,generada
+voy a la tienda,fuera_de_dominio,generada

@@ -1,0 +1,224 @@
+texto,intencion,origen
+mira ya acabamos por hoy apagame todos los aparatos por favor,apagar_todo,sintetica
+super gracias por todo,agradecer,sintetica
+tengo frio,apagar,generada
+ya me voy de la casa apaga todos los dispositivos,apagar_todo,sintetica
+desactiva el ventilador,apagar,generada
+mira enciendeme el ventilador por favor,encender,sintetica
+oye eso era todo ya puedes descansar,descansar,sintetica
+apaga todo y descansa,apagar_todo,generada
+puedes encender el enchufe wemo,encender,massive
+apaga las luces de mi cuarto,apagar,massive
+encender las luces del pasillo,encender,massive
+busca una receta de arepas,fuera_de_dominio,sintetica
+mira apaga absolutamente todo,apagar_todo,sintetica
+mira cuales estan encendidos,consultar_estado,sintetica
+eres el mejor gracias,agradecer,sintetica
+que mas como vas,saludo,sintetica
+descansa un rato,descansar,generada
+activalo porfa,encender,sintetica
+cual es el precio de cierre de apple,fuera_de_dominio,massive
+chao,descansar,generada
+puedes encender las luces por favor,encender,massive
+hola parce,saludo,generada
+eliminar eventos de mi lista,fuera_de_dominio,massive
+calcular dos multiplicado por dos,fuera_de_dominio,massive
+que tipo de gafas de sol se consideran aviadores,fuera_de_dominio,massive
+deten el ventilador,apagar,generada
+oye ya no te necesito por favor,descansar,sintetica
+que puedes decirme sobre el baile del viernes,fuera_de_dominio,massive
+oye enciende el bombillo y la plancha por favor,encender,sintetica
+mi abuela tiene un abanico viejo,fuera_de_dominio,generada
+apaga la luz en el salon,apagar,massive
+por favor responde el correo electronico que yo acabo de leer,fuera_de_dominio,massive
+hola estas ahi,saludo,generada
+buenas como vas,saludo,sintetica
+añadir el gasto de cinco dolares en mi lista de gastos,fuera_de_dominio,massive
+la plancha del pelo de mi hermano es muy vieja,fuera_de_dominio,sintetica
+asi me gusta muchas gracias,agradecer,sintetica
+puedes reservarme un boleto de tren por menos de dolares,fuera_de_dominio,massive
+excelente muy amable,agradecer,sintetica
+a dormir,descansar,generada
+por favor enciende el enchufe wemo,encender,massive
+como se dice perro en ingles porfa,fuera_de_dominio,sintetica
+mira me dices que esta prendido,consultar_estado,sintetica
+apaga todo porfa,apagar_todo,sintetica
+apaga todos los aparatos,apagar_todo,generada
+listo te lo agradezco,agradecer,sintetica
+super gracias,agradecer,sintetica
+apagalas,apagar,sintetica
+oye bueno ya puedes irte a dormir,descansar,sintetica
+mira ya apagalo porfa,apagar,sintetica
+perfecto te agradezco mucho,agradecer,sintetica
+que mas como amaneciste,saludo,sintetica
+oye listo descansa por favor,descansar,sintetica
+por favor cuales estan encendidos,consultar_estado,sintetica
+oye quiero que prendas el cautin porfa,encender,sintetica
+me regalaron un cautin,fuera_de_dominio,sintetica
+ya se refresco,apagar,sintetica
+dime mis alarmas,fuera_de_dominio,massive
+juega de nuevo por favor,fuera_de_dominio,massive
+mira pide un domicilio porfa,fuera_de_dominio,sintetica
+el ventilador sigue prendido,consultar_estado,generada
+listo te agradezco mucho,agradecer,sintetica
+salgo de viaje apagame todo lo que este prendido porfa,apagar_todo,sintetica
+eres el mejor,agradecer,generada
+el cautin es de sesenta vatios,fuera_de_dominio,generada
+por favor enciende las luces,encender,massive
+enciende el bombillo y la plancha,encender,generada
+enciende la luz de la cocina,encender,massive
+pudes encender las luces,encender,massive
+oye eso era todo tomate un descanso por favor,descansar,sintetica
+me apagas la plancha porfa,apagar,sintetica
+oye desactiva el bombillo y la plancha por favor,apagar,sintetica
+oye por ahora es todo por favor,descansar,sintetica
+esta oscuro aqui,encender,massive
+indicaciones para llegar a la tienda apple mas cercana,fuera_de_dominio,massive
+esta muy oscuro prende la luz,encender,sintetica
+puedo obtener las instrucciones para llegar al bar mas cercano,fuera_de_dominio,massive
+publicar un correo electronico al trabajador de mi empresa con la informacion de la reunion programada para hoy,fuera_de_dominio,massive
+por favor ya terminamos,descansar,sintetica
+por favor no veo nada,encender,sintetica
+la alisadora esta encendida,consultar_estado,sintetica
+que mas,saludo,generada
+mira prendelas porfa,encender,sintetica
+oye eso era todo duermete,descansar,sintetica
+por favor esta encendido el soldador,consultar_estado,sintetica
+que mas me escuchas,saludo,sintetica
+por favor como esta la plancha del pelo,consultar_estado,sintetica
+por favor tengo hambre,fuera_de_dominio,sintetica
+como va todo,saludo,massive
+apaga la lampara inteligente en la despensa,apagar,massive
+mira bueno descansa porfa,descansar,sintetica
+apaga las luces ahora,apagar,massive
+oye desconecta todo,apagar_todo,sintetica
+ay esta oscurisimo,encender,sintetica
+la planchita de mi mama es muy vieja,fuera_de_dominio,sintetica
+cuanto cuesta un ventilador,fuera_de_dominio,sintetica
+que cancion escucho mas,fuera_de_dominio,massive
+cuales son las noticias de c n n,fuera_de_dominio,massive
+muy bien te agradezco mucho,agradecer,sintetica
+eres el mejor muchas gracias,agradecer,sintetica
+quien es el primer ministro de rusia,fuera_de_dominio,massive
+oye pon todo en apagado,apagar_todo,sintetica
+oye salgo de viaje apaga todos los dispositivos por favor,apagar_todo,sintetica
+oye que quedo prendido,consultar_estado,sintetica
+cuanto cuesta una planchita,fuera_de_dominio,sintetica
+descansa,descansar,generada
+gracias hermano,agradecer,generada
+enciende el cargador inteligente,encender,massive
+enciende el enchufe wemo para conectar mi cargador,encender,massive
+apaga el enchufe,apagar,massive
+oye hola,saludo,sintetica
+buenas tardes me escuchas,saludo,sintetica
+apaga el ventilador,apagar,generada
+la bombilla de mi hermano es muy vieja,fuera_de_dominio,sintetica
+mira prendela porfa,encender,sintetica
+oye el bombillo esta encendido,consultar_estado,sintetica
+quiero todo apagado porfa,apagar_todo,sintetica
+oye esta muy oscuro,encender,sintetica
+apaga el cautin por favor,apagar,generada
+enciende wemo,encender,massive
+que cosas no puedes hacer,fuera_de_dominio,massive
+enciende las luces,encender,generada
+voy a la tienda,fuera_de_dominio,generada
+mira pon todo en apagado,apagar_todo,sintetica
+super muy amable,agradecer,sintetica
+donde compro un foco,fuera_de_dominio,sintetica
+cuanto trafico hay normalmente en barcelona,fuera_de_dominio,massive
+quiero todo apagado,apagar_todo,generada
+apaga el abanico,apagar,generada
+cual esta encendido,consultar_estado,generada
+busque el numero de personas que viven en malaga andalucia,fuera_de_dominio,massive
+por favor apaga absolutamente todo,apagar_todo,sintetica
+oye listo duermete por favor,descansar,sintetica
+como esta la plancha,consultar_estado,generada
+mira puedes apagar la alisadora,apagar,sintetica
+la luz sigue prendida,consultar_estado,sintetica
+mira apaga el ventilador y la plancha por favor,apagar,sintetica
+por favor enciende el enchufe inteligente,encender,massive
+activa enchufe inteligente,encender,massive
+puedes revisar la hora,fuera_de_dominio,massive
+y la oscuridad ha caido,encender,massive
+oye ve a descansar porfa,descansar,sintetica
+oye deja todo apagado porfa,apagar_todo,sintetica
+como esta el cautin,consultar_estado,generada
+por favor quiero que prendas el bombillo,encender,sintetica
+buenisimo gracias,agradecer,generada
+oye buenos dias,saludo,sintetica
+apaga todas las cosas,apagar_todo,generada
+mira no voy a estar en la casa apagame todo lo que este prendido por favor,apagar_todo,sintetica
+mira que aparatos estan prendidos,consultar_estado,sintetica
+eso es todo,descansar,generada
+oye buenas noches,saludo,sintetica
+quiero que la luz se apague,apagar,massive
+apaga las luces del baño,apagar,massive
+enchufe wemo encendido,encender,massive
+apaga la luz y el ventilador,apagar,generada
+prende el soldador,encender,sintetica
+que mas como estas,saludo,sintetica
+hace mucho frio,apagar,sintetica
+puedes apagar las luces,apagar,massive
+hay algo encendido,consultar_estado,sintetica
+cierra todo y apagalo,apagar_todo,generada
+que esta prendido,consultar_estado,generada
+adios,descansar,generada
+apaga la luz del techo,apagar,massive
+mira podrias encender el soldador porfa,encender,sintetica
+buenos dias como te va,saludo,sintetica
+enciende el bombillo y el cautin porfa,encender,sintetica
+mira tomate un descanso por favor,descansar,sintetica
+por favor programe una reunion para mañana en mi calendario,fuera_de_dominio,massive
+puedo conseguir un boleto de tren para,fuera_de_dominio,massive
+quiero hacer un pedido de algo de comida para llevar,fuera_de_dominio,massive
+por favor pon todo en apagado,apagar_todo,sintetica
+mira ya hay suficiente luz apagame la luz porfa,apagar,sintetica
+llama a mi mama,fuera_de_dominio,generada
+el cautin sigue encendido,consultar_estado,generada
+muy bien que amable,agradecer,sintetica
+mira por ahora es todo,descansar,sintetica
+todo esta apagado,consultar_estado,generada
+como se cocina el pollo a la barbacoa,fuera_de_dominio,massive
+como se dice perro en ingles por favor,fuera_de_dominio,sintetica
+enciende esta toma de corriente,encender,massive
+mira revisa que esta encendido,consultar_estado,sintetica
+que amable,agradecer,generada
+que hay de nuevo,saludo,generada
+hey enciende las luces de discoteca en mi piso y que empiece la fiesta,encender,massive
+que tal como te va,saludo,sintetica
+por favor la planchita sigue apagada,consultar_estado,sintetica
+apaga la lampara,apagar,massive
+mira desactiva la bombilla por favor,apagar,sintetica
+buenos dias estas ahi,saludo,sintetica
+mira activalo,encender,sintetica
+pon radio cinco cuando gina y desta esten al aire,fuera_de_dominio,massive
+me dices que esta prendido,consultar_estado,sintetica
+oye desactiva el bombillo y la plancha,apagar,sintetica
+donde compro un bombillo,fuera_de_dominio,sintetica
+oye prendelas por favor,encender,sintetica
+necesito hacer una lista de facturas vencidas,fuera_de_dominio,massive
+que hora es,fuera_de_dominio,generada
+oye cuentame un chiste por favor,fuera_de_dominio,sintetica
+apagame el cautin y la plancha,apagar,sintetica
+pon billy joel,fuera_de_dominio,massive
+buenas tardes como estas,saludo,sintetica
+apaga la luz del salon,apagar,massive
+enciende el bombillo,encender,generada
+mira desactivalo por favor,apagar,sintetica
+escribe un mensaje a juan,fuera_de_dominio,generada
+que tal me escuchas,saludo,sintetica
+super que amable,agradecer,sintetica
+buenos dias como te ha ido,saludo,sintetica
+cual es la letra de la cancion buleria de david bisbal,fuera_de_dominio,massive
+el ventilador es blanco,fuera_de_dominio,generada
+todo apagado,apagar_todo,generada
+mira ya me voy de la casa apaga todos los aparatos porfa,apagar_todo,sintetica
+oye busca una receta de arepas por favor,fuera_de_dominio,sintetica
+hay demasiada luz aqui puedes apagar una luz,apagar,massive
+oye podrias encender la alisadora porfa,encender,sintetica
+perfecto te lo agradezco,agradecer,sintetica
+podrias apagar el bombillo,apagar,generada
+apaga la luz de la izquierda,apagar,massive
+apaga la planchita,apagar,generada
+apaga las luces del cuarto ahora,apagar,massive
+oye recuerdame comprar leche,fuera_de_dominio,sintetica

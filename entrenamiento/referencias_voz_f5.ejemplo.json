@@ -1,0 +1,6 @@
+{
+  "_nota": "Plantilla. Copiala como entrenamiento/referencias_voz_f5.json (ese archivo no se sube). persona -> [referencia principal, respaldo 1, respaldo 2]: nombres de los clips de voz_comparacion_f5/referencias/<persona>/ (sin .wav), cada uno con su .txt. Las claves deben ser los nombres de modelos/hablantes/hablantes.json. Las claves que empiezan con '_' se ignoran.",
+  "persona1": ["persona1_refA1", "persona1_refA2", "persona1_refA3"],
+  "persona2": ["persona2_refA1", "persona2_refA2", "persona2_refA3"],
+  "persona3": ["persona3_refA1", "persona3_refA2", "persona3_refA3"]
+}

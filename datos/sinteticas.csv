@@ -1,0 +1,641 @@
+texto,intencion,origen
+"oye, buenas noches",saludo,sintetica
+"hola, cómo te va",saludo,sintetica
+cómo amaneciste,saludo,sintetica
+buenos días,saludo,sintetica
+"hola, cómo vas",saludo,sintetica
+estás ahí,saludo,sintetica
+hola,saludo,sintetica
+"hola, cómo te ha ido",saludo,sintetica
+qué hay de nuevo,saludo,sintetica
+buenas,saludo,sintetica
+"buenos días, cómo te ha ido",saludo,sintetica
+me escuchas,saludo,sintetica
+buenas noches,saludo,sintetica
+"buenos días, estás ahí",saludo,sintetica
+"oye, cómo te va",saludo,sintetica
+"oye, buenas tardes",saludo,sintetica
+"buenas, cómo estás",saludo,sintetica
+cómo te ha ido,saludo,sintetica
+buenas tardes,saludo,sintetica
+"buenas, estás ahí",saludo,sintetica
+cómo te va,saludo,sintetica
+qué más,saludo,sintetica
+"qué tal, estás ahí",saludo,sintetica
+"oye, cómo amaneciste",saludo,sintetica
+"oye, buenas",saludo,sintetica
+"buenas, cómo amaneciste",saludo,sintetica
+"oye, cómo estás",saludo,sintetica
+"oye, qué tal",saludo,sintetica
+"buenos días, qué hay de nuevo",saludo,sintetica
+cómo vas,saludo,sintetica
+qué tal,saludo,sintetica
+"qué más, cómo te ha ido",saludo,sintetica
+"oye, qué hay de nuevo",saludo,sintetica
+"oye, hola",saludo,sintetica
+"qué más, cómo vas",saludo,sintetica
+"oye, cómo vas",saludo,sintetica
+"oye, qué más",saludo,sintetica
+"buenas, cómo te va",saludo,sintetica
+cómo estás,saludo,sintetica
+"oye, buenos días",saludo,sintetica
+"buenas noches, cómo te va",saludo,sintetica
+"oye, cómo te ha ido",saludo,sintetica
+"qué tal, cómo amaneciste",saludo,sintetica
+"oye, me escuchas",saludo,sintetica
+"buenas noches, qué hay de nuevo",saludo,sintetica
+"oye, estás ahí",saludo,sintetica
+"buenas, cómo te ha ido",saludo,sintetica
+"buenas tardes, cómo vas",saludo,sintetica
+"hola, cómo estás",saludo,sintetica
+"buenos días, cómo te va",saludo,sintetica
+"buenas noches, cómo amaneciste",saludo,sintetica
+"buenas tardes, cómo te ha ido",saludo,sintetica
+"qué tal, cómo vas",saludo,sintetica
+"buenos días, cómo vas",saludo,sintetica
+"qué tal, qué hay de nuevo",saludo,sintetica
+"buenas noches, estás ahí",saludo,sintetica
+"buenas noches, cómo estás",saludo,sintetica
+"buenas, qué hay de nuevo",saludo,sintetica
+"hola, cómo amaneciste",saludo,sintetica
+"qué tal, me escuchas",saludo,sintetica
+"qué más, estás ahí",saludo,sintetica
+"qué más, me escuchas",saludo,sintetica
+"buenos días, cómo amaneciste",saludo,sintetica
+"buenas tardes, me escuchas",saludo,sintetica
+"buenas tardes, cómo amaneciste",saludo,sintetica
+"buenos días, cómo estás",saludo,sintetica
+"qué tal, cómo estás",saludo,sintetica
+"qué más, qué hay de nuevo",saludo,sintetica
+"buenas, cómo vas",saludo,sintetica
+"buenas noches, cómo te ha ido",saludo,sintetica
+"buenas noches, cómo vas",saludo,sintetica
+"qué más, cómo amaneciste",saludo,sintetica
+"buenas tardes, qué hay de nuevo",saludo,sintetica
+"hola, qué hay de nuevo",saludo,sintetica
+"qué más, cómo estás",saludo,sintetica
+"qué tal, cómo te va",saludo,sintetica
+"qué tal, cómo te ha ido",saludo,sintetica
+"buenas tardes, cómo estás",saludo,sintetica
+"buenas tardes, cómo te va",saludo,sintetica
+"buenas, me escuchas",saludo,sintetica
+"ay, no se ve nada",encender,sintetica
+"oye, necesito soldar, prende el cautín por favor",encender,sintetica
+quiero que prendas el cautín por favor,encender,sintetica
+"por favor, estoy sudando",encender,sintetica
+"mira, actívalo",encender,sintetica
+"oye, prende el ventilador y la plancha porfa",encender,sintetica
+"ay, está oscurísimo",encender,sintetica
+"mira, hace mucho calor, activa el abanico por favor",encender,sintetica
+"mira, podrías encender el soldador porfa",encender,sintetica
+"por favor, tengo calor",encender,sintetica
+"oye, actívalo",encender,sintetica
+"mira, enciende el bombillo y el ventilador por favor",encender,sintetica
+está muy oscuro,encender,sintetica
+"mira, está oscuro, enciéndeme la luz",encender,sintetica
+préndeme la plancha del pelo porfa,encender,sintetica
+está haciendo calor,encender,sintetica
+"por favor, enciéndela",encender,sintetica
+prende el bombillo y el cautín por favor,encender,sintetica
+"ay, qué oscuridad",encender,sintetica
+"oye, hace mucho calor, activa el abanico porfa",encender,sintetica
+"por favor, enciende la plancha del pelo",encender,sintetica
+hace mucho calor,encender,sintetica
+ya préndelo por favor,encender,sintetica
+enciende el ventilador y la plancha porfa,encender,sintetica
+"uy, no se ve nada",encender,sintetica
+"por favor, me voy a arreglar el pelo, enciende la plancha",encender,sintetica
+"mira, enciéndeme el ventilador por favor",encender,sintetica
+"oye, necesito luz para leer",encender,sintetica
+"mira, préndela porfa",encender,sintetica
+"por favor, prende el bombillo y el cautín",encender,sintetica
+no se ve nada,encender,sintetica
+"tengo que soldar unos cables, préndeme el soldador por favor",encender,sintetica
+"mira, enciéndeme la planchita por favor",encender,sintetica
+"mira, está haciendo calor",encender,sintetica
+"mira, enciéndelo",encender,sintetica
+"oye, enciende el bombillo y la plancha por favor",encender,sintetica
+"uy, está muy oscuro",encender,sintetica
+"oye, está haciendo calor, enciende el abanico",encender,sintetica
+prende el soldador,encender,sintetica
+está oscuro,encender,sintetica
+"mira, ya préndelo por favor",encender,sintetica
+enciende el bombillo y el cautín porfa,encender,sintetica
+qué oscuro está esto,encender,sintetica
+"mira, me voy a alisar el pelo, préndeme la alisadora por favor",encender,sintetica
+"oye, podrías encender la alisadora porfa",encender,sintetica
+"mira, está oscuro",encender,sintetica
+"oye, ve prendiéndolo por favor",encender,sintetica
+enciende el bombillo y el cautín por favor,encender,sintetica
+"ay, está muy oscuro",encender,sintetica
+"mira, tengo que soldar unos cables, activa el soldador",encender,sintetica
+quiero que prendas el cautín,encender,sintetica
+"oye, tengo mucho calor",encender,sintetica
+"oye, préndelas por favor",encender,sintetica
+préndeme el bombillo y la plancha porfa,encender,sintetica
+"uy, qué oscuro está esto",encender,sintetica
+"mira, tengo que alistarme, activa la plancha del pelo por favor",encender,sintetica
+"por favor, quiero que prendas el bombillo",encender,sintetica
+tengo mucho calor,encender,sintetica
+"oye, enciéndelo",encender,sintetica
+"oye, préndeme el bombillo y el cautín por favor",encender,sintetica
+qué oscuridad,encender,sintetica
+"mira, está oscuro, préndeme la luz",encender,sintetica
+"oye, activa la plancha por favor",encender,sintetica
+"mira, qué calor",encender,sintetica
+actívalo porfa,encender,sintetica
+"oye, préndeme el bombillo y la plancha porfa",encender,sintetica
+"uy, qué oscuridad",encender,sintetica
+"mira, tengo calor, enciéndeme el ventilador por favor",encender,sintetica
+"mira, enciéndeme el abanico porfa",encender,sintetica
+"por favor, no veo nada",encender,sintetica
+"mira, préndelas porfa",encender,sintetica
+"oye, préndeme el cautín y la plancha",encender,sintetica
+"ay, qué oscuro está esto",encender,sintetica
+"está muy oscuro, prende la luz",encender,sintetica
+"oye, quiero que prendas el cautín porfa",encender,sintetica
+"oye, está muy oscuro",encender,sintetica
+"mira, ya préndelo porfa",encender,sintetica
+enciende el bombillo y la plancha porfa,encender,sintetica
+"uy, está oscurísimo",encender,sintetica
+"mira, me estoy asando, enciéndeme el abanico",encender,sintetica
+ya se refrescó,apagar,sintetica
+"ya terminé de soldar, apágame el cautín por favor",apagar,sintetica
+"mira, podrías apagar el soldador por favor",apagar,sintetica
+"mira, hace frío",apagar,sintetica
+"mira, desactívalo por favor",apagar,sintetica
+apágame el bombillo y la plancha porfa,apagar,sintetica
+qué frío,apagar,sintetica
+"mira, ya terminé de soldar, apaga el soldador",apagar,sintetica
+"oye, apaga el ventilador por favor",apagar,sintetica
+ya está fresco,apagar,sintetica
+"oye, apágala por favor",apagar,sintetica
+"oye, desactiva el bombillo y la plancha",apagar,sintetica
+"ay, me estoy congelando",apagar,sintetica
+"mira, la luz me molesta, desactiva el bombillo por favor",apagar,sintetica
+apaga el cautín por favor,apagar,sintetica
+"por favor, ya no tengo calor",apagar,sintetica
+"oye, desactívalo porfa",apagar,sintetica
+desactiva el ventilador y la plancha,apagar,sintetica
+"ay, está haciendo frío",apagar,sintetica
+"oye, ya no voy a soldar, desactiva el soldador",apagar,sintetica
+"mira, apaga el cautín porfa",apagar,sintetica
+"por favor, ya está fresco",apagar,sintetica
+"por favor, ya apágala",apagar,sintetica
+"oye, desactiva el ventilador y la plancha por favor",apagar,sintetica
+"uy, me estoy congelando",apagar,sintetica
+"ya terminé de soldar, desactiva el cautín por favor",apagar,sintetica
+"mira, puedes apagar la alisadora",apagar,sintetica
+tengo frío,apagar,sintetica
+apágala,apagar,sintetica
+"mira, apaga el bombillo y el cautín",apagar,sintetica
+"uy, qué frío",apagar,sintetica
+"mira, ya me alisé el pelo, desactiva la plancha del pelo porfa",apagar,sintetica
+"mira, desactiva la bombilla por favor",apagar,sintetica
+hace frío,apagar,sintetica
+apágalas,apagar,sintetica
+"mira, desactiva el ventilador y la plancha por favor",apagar,sintetica
+hace mucho frío,apagar,sintetica
+"por favor, ya terminé de soldar, apaga el soldador",apagar,sintetica
+apágame el abanico por favor,apagar,sintetica
+"oye, me estoy congelando",apagar,sintetica
+"mira, ya apágalo porfa",apagar,sintetica
+"mira, apaga el ventilador y la plancha por favor",apagar,sintetica
+me estoy congelando,apagar,sintetica
+"por favor, ya terminé de arreglarme, apaga la planchita",apagar,sintetica
+"oye, apágame el abanico por favor",apagar,sintetica
+"mira, ya está fresco",apagar,sintetica
+"oye, apágala porfa",apagar,sintetica
+"oye, desactiva el bombillo y la plancha por favor",apagar,sintetica
+"uy, está haciendo frío",apagar,sintetica
+"ya me alisé el pelo, desactiva la plancha del pelo por favor",apagar,sintetica
+"mira, apaga la luz porfa",apagar,sintetica
+"oye, ya se refrescó",apagar,sintetica
+ya apágala porfa,apagar,sintetica
+apágame el bombillo y el ventilador porfa,apagar,sintetica
+"uy, ya se refrescó",apagar,sintetica
+"mira, ya no tengo calor, desactiva el ventilador porfa",apagar,sintetica
+quiero que apagues el abanico porfa,apagar,sintetica
+"oye, hace frío",apagar,sintetica
+"oye, desactívalo",apagar,sintetica
+apágame el bombillo y el ventilador por favor,apagar,sintetica
+"uy, hace mucho frío",apagar,sintetica
+"mira, ya hay suficiente luz, apágame la luz porfa",apagar,sintetica
+me apagas la plancha porfa,apagar,sintetica
+"oye, tengo frío",apagar,sintetica
+"oye, ya apágala porfa",apagar,sintetica
+"mira, desactiva el bombillo y el ventilador porfa",apagar,sintetica
+"ay, qué frío",apagar,sintetica
+"ya me alisé el pelo, apágame la plancha del pelo por favor",apagar,sintetica
+"mira, apágame el soldador",apagar,sintetica
+"oye, ya está fresco",apagar,sintetica
+desactívalo porfa,apagar,sintetica
+apágame el cautín y la plancha,apagar,sintetica
+"ay, ya no tengo calor",apagar,sintetica
+"mira, ya no voy a soldar, apágame el cautín por favor",apagar,sintetica
+"por favor, apaga el abanico",apagar,sintetica
+"por favor, tengo frío",apagar,sintetica
+"mira, ya apágalo",apagar,sintetica
+"oye, desactiva el ventilador y el cautín por favor",apagar,sintetica
+"uy, ya no tengo calor",apagar,sintetica
+"oye, ya no tengo calor, apágame el ventilador",apagar,sintetica
+"oye, desconecta todo lo que esté prendido",apagar_todo,sintetica
+"mira, me voy a acostar, apaga todos los dispositivos",apagar_todo,sintetica
+"mira, deja todo apagado por favor",apagar_todo,sintetica
+apágame todos los aparatos por favor,apagar_todo,sintetica
+"ya acabamos por hoy, apágame todos los aparatos",apagar_todo,sintetica
+"por favor, quiero todo apagado",apagar_todo,sintetica
+"mira, apaga todos los aparatos por favor",apagar_todo,sintetica
+"oye, ya acabamos por hoy, apágame todo",apagar_todo,sintetica
+"mira, apágalo todo porfa",apagar_todo,sintetica
+apágame todos los aparatos porfa,apagar_todo,sintetica
+"oye, ya acabamos por hoy, apaga todo porfa",apagar_todo,sintetica
+apaga absolutamente todo porfa,apagar_todo,sintetica
+apaga todos los dispositivos porfa,apagar_todo,sintetica
+"ya me voy de la casa, apaga todos los dispositivos",apagar_todo,sintetica
+"mira, pon todo en apagado porfa",apagar_todo,sintetica
+desactiva todos los aparatos por favor,apagar_todo,sintetica
+"salgo de viaje, apaga todos los aparatos",apagar_todo,sintetica
+"oye, deja todo apagado porfa",apagar_todo,sintetica
+"por favor, apaga todos los dispositivos",apagar_todo,sintetica
+"oye, me voy a acostar, apaga todos los dispositivos por favor",apagar_todo,sintetica
+"mira, apaga absolutamente todo",apagar_todo,sintetica
+"oye, desactiva todos los aparatos",apagar_todo,sintetica
+"oye, me voy a acostar, apaga todo lo que esté prendido porfa",apagar_todo,sintetica
+"oye, apaga absolutamente todo",apagar_todo,sintetica
+"oye, desconecta todo",apagar_todo,sintetica
+"oye, salgo de viaje, apágame todos los aparatos por favor",apagar_todo,sintetica
+deja todo apagado por favor,apagar_todo,sintetica
+"mira, desconecta todo porfa",apagar_todo,sintetica
+"mira, ya me voy de la casa, apágame todos los dispositivos porfa",apagar_todo,sintetica
+quiero todo apagado por favor,apagar_todo,sintetica
+"oye, desconecta todo lo de la casa por favor",apagar_todo,sintetica
+"oye, ya me voy de la casa, apaga todo lo de la casa",apagar_todo,sintetica
+quiero todo apagado porfa,apagar_todo,sintetica
+"por favor, apágame todos los dispositivos",apagar_todo,sintetica
+"mira, ya acabamos por hoy, apágame todos los aparatos por favor",apagar_todo,sintetica
+"por favor, apaga absolutamente todo",apagar_todo,sintetica
+desconecta todos los dispositivos,apagar_todo,sintetica
+"oye, salgo de viaje, apaga todos los dispositivos por favor",apagar_todo,sintetica
+"mira, deja todo apagado",apagar_todo,sintetica
+"oye, desconecta todos los aparatos porfa",apagar_todo,sintetica
+"salgo de viaje, apágame todo lo que esté prendido porfa",apagar_todo,sintetica
+"mira, quiero todo apagado porfa",apagar_todo,sintetica
+"mira, apaga todo lo de la casa por favor",apagar_todo,sintetica
+"no voy a estar en la casa, apaga todo porfa",apagar_todo,sintetica
+deja todo apagado porfa,apagar_todo,sintetica
+apaga todo lo que esté prendido,apagar_todo,sintetica
+"no voy a estar en la casa, apágame todos los aparatos porfa",apagar_todo,sintetica
+"por favor, pon todo en apagado",apagar_todo,sintetica
+"mira, apaga todo",apagar_todo,sintetica
+"mira, ya me voy de la casa, apaga todos los dispositivos porfa",apagar_todo,sintetica
+"oye, apaga absolutamente todo por favor",apagar_todo,sintetica
+desconecta todo lo que esté prendido por favor,apagar_todo,sintetica
+"oye, ya acabamos por hoy, apaga todo lo de la casa",apagar_todo,sintetica
+"mira, pon todo en apagado",apagar_todo,sintetica
+"mira, apaga todo lo que esté prendido porfa",apagar_todo,sintetica
+"mira, salgo de viaje, apágame todo",apagar_todo,sintetica
+"oye, apaga absolutamente todo porfa",apagar_todo,sintetica
+"por favor, desconecta todos los dispositivos",apagar_todo,sintetica
+"mira, salgo de viaje, apaga todo lo que esté prendido",apagar_todo,sintetica
+"mira, apágalo todo por favor",apagar_todo,sintetica
+apaga todo porfa,apagar_todo,sintetica
+"por favor, me voy a acostar, apaga todos los aparatos",apagar_todo,sintetica
+apágalo todo,apagar_todo,sintetica
+apaga todo lo de la casa por favor,apagar_todo,sintetica
+"por favor, ya me voy de la casa, apágame todo lo que esté prendido",apagar_todo,sintetica
+"oye, pon todo en apagado",apagar_todo,sintetica
+"oye, desactiva todos los dispositivos por favor",apagar_todo,sintetica
+"mira, ya me voy de la casa, apaga todos los aparatos porfa",apagar_todo,sintetica
+"mira, quiero todo apagado por favor",apagar_todo,sintetica
+"oye, apágame todo lo que esté prendido porfa",apagar_todo,sintetica
+"oye, no voy a estar en la casa, apaga todo por favor",apagar_todo,sintetica
+"oye, quiero todo apagado",apagar_todo,sintetica
+"mira, desactiva todo lo que esté prendido",apagar_todo,sintetica
+"oye, me voy a acostar, apaga todo lo que esté prendido por favor",apagar_todo,sintetica
+apaga absolutamente todo por favor,apagar_todo,sintetica
+desactiva todo lo que esté prendido porfa,apagar_todo,sintetica
+"no voy a estar en la casa, apaga todo lo que esté prendido por favor",apagar_todo,sintetica
+pon todo en apagado,apagar_todo,sintetica
+"oye, apágame todos los aparatos",apagar_todo,sintetica
+"mira, no voy a estar en la casa, apágame todo lo que esté prendido por favor",apagar_todo,sintetica
+adiós,descansar,sintetica
+a dormir,descansar,sintetica
+ya no te necesito,descansar,sintetica
+"oye, listo, descansa por favor",descansar,sintetica
+"bueno, hasta luego",descansar,sintetica
+"oye, ya puedes descansar",descansar,sintetica
+"mira, eso es todo",descansar,sintetica
+"mira, bueno, tómate un descanso por favor",descansar,sintetica
+"listo, hasta luego",descansar,sintetica
+ya puedes irte a dormir porfa,descansar,sintetica
+"mira, ya terminamos porfa",descansar,sintetica
+"oye, eso era todo, tómate un descanso por favor",descansar,sintetica
+hasta luego,descansar,sintetica
+puedes descansar porfa,descansar,sintetica
+por ahora es todo,descansar,sintetica
+"oye, eso era todo, duérmete",descansar,sintetica
+"bueno, adiós",descansar,sintetica
+"oye, vete a dormir",descansar,sintetica
+"oye, ya no te necesito por favor",descansar,sintetica
+"ya terminamos, tómate un descanso por favor",descansar,sintetica
+"listo, adiós",descansar,sintetica
+puedes retirarte porfa,descansar,sintetica
+"oye, ya terminamos por favor",descansar,sintetica
+"oye, listo, duérmete por favor",descansar,sintetica
+"listo, nos vemos",descansar,sintetica
+descansa por favor,descansar,sintetica
+"por favor, ya no te necesito",descansar,sintetica
+"por favor, listo, descansa",descansar,sintetica
+"bueno, nos vemos",descansar,sintetica
+"oye, puedes descansar porfa",descansar,sintetica
+"mira, eso es todo por favor",descansar,sintetica
+"oye, eso era todo, ya puedes descansar",descansar,sintetica
+chao,descansar,sintetica
+vete a descansar porfa,descansar,sintetica
+"por favor, ya terminamos",descansar,sintetica
+"listo, descansa porfa",descansar,sintetica
+"listo, chao",descansar,sintetica
+"oye, vete a dormir por favor",descansar,sintetica
+eso era todo porfa,descansar,sintetica
+"ya terminamos, puedes retirarte",descansar,sintetica
+nos vemos,descansar,sintetica
+"por favor, vete a descansar",descansar,sintetica
+ya no te necesito porfa,descansar,sintetica
+"mira, eso era todo, ve a descansar porfa",descansar,sintetica
+"bueno, chao",descansar,sintetica
+duérmete por favor,descansar,sintetica
+"oye, eso es todo por favor",descansar,sintetica
+"oye, bueno, ya puedes descansar por favor",descansar,sintetica
+duérmete,descansar,sintetica
+"mira, por ahora es todo",descansar,sintetica
+"mira, bueno, descansa porfa",descansar,sintetica
+"oye, puedes retirarte por favor",descansar,sintetica
+"mira, no necesito nada más por favor",descansar,sintetica
+"mira, eso era todo, puedes descansar porfa",descansar,sintetica
+"mira, vete a descansar porfa",descansar,sintetica
+"mira, ya no te necesito",descansar,sintetica
+"oye, bueno, a dormir",descansar,sintetica
+"mira, tómate un descanso por favor",descansar,sintetica
+"por favor, eso era todo",descansar,sintetica
+"por favor, bueno, ve a descansar",descansar,sintetica
+"oye, ve a descansar porfa",descansar,sintetica
+"oye, no necesito nada más",descansar,sintetica
+"oye, listo, a dormir",descansar,sintetica
+"mira, ve a descansar por favor",descansar,sintetica
+"oye, ya terminamos porfa",descansar,sintetica
+"listo, tómate un descanso porfa",descansar,sintetica
+"oye, tómate un descanso porfa",descansar,sintetica
+"por favor, eso es todo",descansar,sintetica
+"oye, bueno, ya puedes irte a dormir",descansar,sintetica
+puedes retirarte por favor,descansar,sintetica
+"oye, eso es todo porfa",descansar,sintetica
+"oye, ya terminamos, vete a descansar por favor",descansar,sintetica
+"oye, puedes descansar por favor",descansar,sintetica
+ya terminamos,descansar,sintetica
+"ya terminamos, ya puedes irte a dormir por favor",descansar,sintetica
+"por favor, tómate un descanso",descansar,sintetica
+no necesito nada más por favor,descansar,sintetica
+"oye, bueno, ve a descansar",descansar,sintetica
+"oye, vete a descansar porfa",descansar,sintetica
+"oye, por ahora es todo por favor",descansar,sintetica
+"mira, el cautín sigue encendido",consultar_estado,sintetica
+"oye, todo está apagado",consultar_estado,sintetica
+"oye, la planchita sigue encendida",consultar_estado,sintetica
+"por favor, qué está encendido",consultar_estado,sintetica
+"por favor, la plancha sigue apagada",consultar_estado,sintetica
+"oye, cómo están los aparatos",consultar_estado,sintetica
+"mira, dime si el abanico está apagado",consultar_estado,sintetica
+"por favor, cuáles están encendidos",consultar_estado,sintetica
+"mira, el soldador sigue apagado",consultar_estado,sintetica
+"mira, en qué estado están los aparatos",consultar_estado,sintetica
+"oye, el bombillo está apagado",consultar_estado,sintetica
+"por favor, todo está apagado",consultar_estado,sintetica
+el bombillo está encendido,consultar_estado,sintetica
+"mira, qué aparatos están prendidos",consultar_estado,sintetica
+la alisadora está encendida,consultar_estado,sintetica
+"mira, me dices qué está prendido",consultar_estado,sintetica
+"oye, el abanico sigue apagado",consultar_estado,sintetica
+"oye, qué está apagado",consultar_estado,sintetica
+"mira, el foco sigue apagado",consultar_estado,sintetica
+"mira, cuáles están encendidos",consultar_estado,sintetica
+"por favor, la alisadora sigue prendida",consultar_estado,sintetica
+"oye, hay algo encendido",consultar_estado,sintetica
+"mira, dime si la planchita está apagada",consultar_estado,sintetica
+"mira, qué está prendido",consultar_estado,sintetica
+"por favor, está encendido el soldador",consultar_estado,sintetica
+"por favor, qué aparatos están prendidos",consultar_estado,sintetica
+el abanico está apagado,consultar_estado,sintetica
+"oye, qué está prendido",consultar_estado,sintetica
+"mira, está apagada la plancha del pelo",consultar_estado,sintetica
+qué está apagado,consultar_estado,sintetica
+"por favor, dime si la alisadora está encendida",consultar_estado,sintetica
+me dices qué está prendido,consultar_estado,sintetica
+"mira, la plancha está apagada",consultar_estado,sintetica
+en qué estado están los aparatos,consultar_estado,sintetica
+"oye, dime si la planchita está apagada",consultar_estado,sintetica
+todo está apagado,consultar_estado,sintetica
+"por favor, el ventilador sigue encendido",consultar_estado,sintetica
+revisa qué está encendido,consultar_estado,sintetica
+"oye, está apagada la planchita",consultar_estado,sintetica
+"oye, me dices qué está prendido",consultar_estado,sintetica
+"mira, dime si el cautín está prendido",consultar_estado,sintetica
+"mira, qué está apagado",consultar_estado,sintetica
+está prendido el soldador,consultar_estado,sintetica
+cuáles están encendidos,consultar_estado,sintetica
+"por favor, cómo está la plancha del pelo",consultar_estado,sintetica
+"mira, qué está encendido",consultar_estado,sintetica
+"oye, está prendido el cautín",consultar_estado,sintetica
+"oye, revisa qué está encendido",consultar_estado,sintetica
+"oye, cómo está la bombilla",consultar_estado,sintetica
+"mira, cómo están los aparatos",consultar_estado,sintetica
+"por favor, la planchita sigue apagada",consultar_estado,sintetica
+qué quedó prendido,consultar_estado,sintetica
+"mira, dime si la luz está apagada",consultar_estado,sintetica
+qué aparatos están prendidos,consultar_estado,sintetica
+"oye, el abanico está apagado",consultar_estado,sintetica
+"por favor, qué quedó prendido",consultar_estado,sintetica
+"mira, dime si el cautín está apagado",consultar_estado,sintetica
+"oye, qué quedó prendido",consultar_estado,sintetica
+"mira, la bombilla sigue prendida",consultar_estado,sintetica
+hay algo prendido,consultar_estado,sintetica
+"mira, la planchita está apagada",consultar_estado,sintetica
+qué está prendido,consultar_estado,sintetica
+la luz sigue prendida,consultar_estado,sintetica
+"por favor, cómo están los aparatos",consultar_estado,sintetica
+"oye, el bombillo está encendido",consultar_estado,sintetica
+"mira, revisa qué está encendido",consultar_estado,sintetica
+"oye, está apagado el foco",consultar_estado,sintetica
+"oye, qué está encendido",consultar_estado,sintetica
+"por favor, la plancha está encendida",consultar_estado,sintetica
+"oye, qué aparatos están prendidos",consultar_estado,sintetica
+el cautín sigue prendido,consultar_estado,sintetica
+"por favor, me dices qué está prendido",consultar_estado,sintetica
+"por favor, la luz sigue apagada",consultar_estado,sintetica
+"oye, cuáles están encendidos",consultar_estado,sintetica
+"por favor, el ventilador sigue prendido",consultar_estado,sintetica
+hay algo encendido,consultar_estado,sintetica
+están prendidas las luces,consultar_estado,sintetica
+"por favor, qué está prendido",consultar_estado,sintetica
+"por favor, dime si el soldador está prendido",consultar_estado,sintetica
+"por favor, hay algo prendido",consultar_estado,sintetica
+te lo agradezco,agradecer,sintetica
+"súper, gracias por todo",agradecer,sintetica
+"eres el mejor, muchas gracias",agradecer,sintetica
+gracias por la ayuda,agradecer,sintetica
+"perfecto, gracias",agradecer,sintetica
+"excelente trabajo, muchas gracias",agradecer,sintetica
+te agradezco mucho,agradecer,sintetica
+"qué bien, mil gracias",agradecer,sintetica
+"muy bien hecho, mil gracias",agradecer,sintetica
+muchas gracias,agradecer,sintetica
+"listo, gracias por la ayuda",agradecer,sintetica
+"eres el mejor, mil gracias",agradecer,sintetica
+gracias,agradecer,sintetica
+"perfecto, mil gracias",agradecer,sintetica
+"eres el mejor, gracias",agradecer,sintetica
+muy amable,agradecer,sintetica
+"muy bien, te lo agradezco",agradecer,sintetica
+muy bien hecho,agradecer,sintetica
+gracias por todo,agradecer,sintetica
+"qué bien, te lo agradezco",agradecer,sintetica
+eres el mejor,agradecer,sintetica
+qué amable,agradecer,sintetica
+"súper, gracias por la ayuda",agradecer,sintetica
+"así me gusta, muchas gracias",agradecer,sintetica
+mil gracias,agradecer,sintetica
+"listo, mil gracias",agradecer,sintetica
+"así me gusta, gracias",agradecer,sintetica
+"muy bien, gracias por todo",agradecer,sintetica
+"muy bien hecho, muchas gracias",agradecer,sintetica
+"muy bien, qué amable",agradecer,sintetica
+así me gusta,agradecer,sintetica
+"listo, gracias por todo",agradecer,sintetica
+"qué buen trabajo, muchas gracias",agradecer,sintetica
+"listo, qué amable",agradecer,sintetica
+"así me gusta, mil gracias",agradecer,sintetica
+"súper, te lo agradezco",agradecer,sintetica
+"muy bien hecho, gracias",agradecer,sintetica
+"listo, te agradezco mucho",agradecer,sintetica
+"qué buen trabajo, mil gracias",agradecer,sintetica
+"súper, muchas gracias",agradecer,sintetica
+"excelente trabajo, mil gracias",agradecer,sintetica
+"qué bien, te agradezco mucho",agradecer,sintetica
+"excelente trabajo, gracias",agradecer,sintetica
+"listo, gracias",agradecer,sintetica
+qué buen trabajo,agradecer,sintetica
+"muy bien, gracias",agradecer,sintetica
+"qué buen trabajo, gracias",agradecer,sintetica
+"muy bien, gracias por la ayuda",agradecer,sintetica
+excelente trabajo,agradecer,sintetica
+"excelente, te agradezco mucho",agradecer,sintetica
+"excelente, qué amable",agradecer,sintetica
+"súper, gracias",agradecer,sintetica
+"excelente, muy amable",agradecer,sintetica
+"perfecto, gracias por todo",agradecer,sintetica
+"perfecto, muy amable",agradecer,sintetica
+"qué bien, gracias por la ayuda",agradecer,sintetica
+"excelente, gracias por todo",agradecer,sintetica
+"perfecto, gracias por la ayuda",agradecer,sintetica
+"excelente, gracias por la ayuda",agradecer,sintetica
+"perfecto, te lo agradezco",agradecer,sintetica
+"súper, muy amable",agradecer,sintetica
+"excelente, gracias",agradecer,sintetica
+"excelente, te lo agradezco",agradecer,sintetica
+"listo, te lo agradezco",agradecer,sintetica
+"muy bien, muchas gracias",agradecer,sintetica
+"listo, muy amable",agradecer,sintetica
+"súper, mil gracias",agradecer,sintetica
+"qué bien, muchas gracias",agradecer,sintetica
+"qué bien, gracias por todo",agradecer,sintetica
+"excelente, muchas gracias",agradecer,sintetica
+"listo, muchas gracias",agradecer,sintetica
+"perfecto, te agradezco mucho",agradecer,sintetica
+"súper, te agradezco mucho",agradecer,sintetica
+"muy bien, mil gracias",agradecer,sintetica
+"súper, qué amable",agradecer,sintetica
+"qué bien, muy amable",agradecer,sintetica
+"perfecto, qué amable",agradecer,sintetica
+"qué bien, gracias",agradecer,sintetica
+"qué bien, qué amable",agradecer,sintetica
+"muy bien, te agradezco mucho",agradecer,sintetica
+el abanico es blanco,fuera_de_dominio,sintetica
+qué día es hoy,fuera_de_dominio,sintetica
+me regalaron un cautín,fuera_de_dominio,sintetica
+cuéntame un chiste porfa,fuera_de_dominio,sintetica
+la planchita es negra,fuera_de_dominio,sintetica
+pide un domicilio,fuera_de_dominio,sintetica
+cuánto cuesta una plancha del pelo,fuera_de_dominio,sintetica
+quién ganó el partido porfa,fuera_de_dominio,sintetica
+dónde compro una alisadora,fuera_de_dominio,sintetica
+estoy aburrido,fuera_de_dominio,sintetica
+el abanico es rojo,fuera_de_dominio,sintetica
+cómo se dice perro en inglés por favor,fuera_de_dominio,sintetica
+el soldador de mi mamá es muy viejo,fuera_de_dominio,sintetica
+quién ganó el partido por favor,fuera_de_dominio,sintetica
+cuánto cuesta una plancha,fuera_de_dominio,sintetica
+"mira, quién ganó el partido",fuera_de_dominio,sintetica
+la planchita de mi mamá es muy vieja,fuera_de_dominio,sintetica
+cuántos años tienes,fuera_de_dominio,sintetica
+mañana compro otra plancha,fuera_de_dominio,sintetica
+cuánto es dos más dos por favor,fuera_de_dominio,sintetica
+me regalaron un abanico,fuera_de_dominio,sintetica
+qué noticias hay porfa,fuera_de_dominio,sintetica
+cuánto cuesta un abanico,fuera_de_dominio,sintetica
+"mira, qué hora es",fuera_de_dominio,sintetica
+cuánto cuesta un cautín,fuera_de_dominio,sintetica
+"oye, cómo va a estar el clima por favor",fuera_de_dominio,sintetica
+el soldador de mi abuela es muy viejo,fuera_de_dominio,sintetica
+"mira, cuéntame un chiste",fuera_de_dominio,sintetica
+la bombilla de mi hermano es muy vieja,fuera_de_dominio,sintetica
+busca una receta de arepas,fuera_de_dominio,sintetica
+la bombilla es blanca,fuera_de_dominio,sintetica
+pide un domicilio porfa,fuera_de_dominio,sintetica
+el abanico de mi mamá es muy viejo,fuera_de_dominio,sintetica
+"mira, busca una receta de arepas",fuera_de_dominio,sintetica
+el abanico es negro,fuera_de_dominio,sintetica
+"por favor, busca una receta de arepas",fuera_de_dominio,sintetica
+mañana compro otra plancha del pelo,fuera_de_dominio,sintetica
+"por favor, tengo hambre",fuera_de_dominio,sintetica
+la plancha de mi hermano es muy vieja,fuera_de_dominio,sintetica
+"oye, tengo hambre porfa",fuera_de_dominio,sintetica
+cuánto cuesta un bombillo,fuera_de_dominio,sintetica
+"oye, cómo se dice perro en inglés por favor",fuera_de_dominio,sintetica
+cuánto cuesta un foco,fuera_de_dominio,sintetica
+"oye, cuánto es dos más dos por favor",fuera_de_dominio,sintetica
+el bombillo de mi abuela es muy viejo,fuera_de_dominio,sintetica
+"mira, cuántos años tienes porfa",fuera_de_dominio,sintetica
+la plancha del pelo de mi hermano es muy vieja,fuera_de_dominio,sintetica
+"por favor, qué día es hoy",fuera_de_dominio,sintetica
+dónde compro un ventilador,fuera_de_dominio,sintetica
+"oye, recuérdame comprar leche",fuera_de_dominio,sintetica
+cuánto cuesta una planchita,fuera_de_dominio,sintetica
+cómo se dice perro en inglés porfa,fuera_de_dominio,sintetica
+el ventilador es negro,fuera_de_dominio,sintetica
+"oye, busca una receta de arepas por favor",fuera_de_dominio,sintetica
+el cautín de mi hermano es muy viejo,fuera_de_dominio,sintetica
+qué hora es por favor,fuera_de_dominio,sintetica
+cuánto cuesta un ventilador,fuera_de_dominio,sintetica
+"oye, llama a mi mamá",fuera_de_dominio,sintetica
+dónde compro una planchita,fuera_de_dominio,sintetica
+"mira, qué día es hoy por favor",fuera_de_dominio,sintetica
+mañana compro otra alisadora,fuera_de_dominio,sintetica
+"mira, quién ganó el partido por favor",fuera_de_dominio,sintetica
+mañana compro otro soldador,fuera_de_dominio,sintetica
+"por favor, cuál es la capital de Colombia",fuera_de_dominio,sintetica
+el cautín de mi mamá es muy viejo,fuera_de_dominio,sintetica
+"oye, cuéntame un chiste por favor",fuera_de_dominio,sintetica
+mañana compro otro bombillo,fuera_de_dominio,sintetica
+"mira, qué película me recomiendas",fuera_de_dominio,sintetica
+me regalaron un soldador,fuera_de_dominio,sintetica
+"oye, cómo va a estar el clima porfa",fuera_de_dominio,sintetica
+el ventilador de mi mamá es muy viejo,fuera_de_dominio,sintetica
+"oye, cuál es la capital de Colombia porfa",fuera_de_dominio,sintetica
+el cautín es blanco,fuera_de_dominio,sintetica
+"mira, pide un domicilio porfa",fuera_de_dominio,sintetica
+dónde compro un foco,fuera_de_dominio,sintetica
+"oye, tengo hambre por favor",fuera_de_dominio,sintetica
+el foco de mi abuela es muy viejo,fuera_de_dominio,sintetica
+"por favor, cuéntame un chiste",fuera_de_dominio,sintetica
+dónde compro un bombillo,fuera_de_dominio,sintetica
+qué noticias hay por favor,fuera_de_dominio,sintetica

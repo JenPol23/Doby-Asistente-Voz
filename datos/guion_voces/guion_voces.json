@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "fuente": "datos/guion_voces/Doby_guion_grabacion_voces.pdf",
+  "bloques": {
+    "A": {
+      "descripcion": "Frase de activación",
+      "segmentar": true,
+      "frases": [
+        {
+          "n": 1,
+          "texto": "Hola Doby",
+          "indicacion": "normal"
+        },
+        {
+          "n": 2,
+          "texto": "Hola Doby",
+          "indicacion": "normal"
+        },
+        {
+          "n": 3,
+          "texto": "Hola Doby",
+          "indicacion": "normal"
+        },
+        {
+          "n": 4,
+          "texto": "Hola Doby",
+          "indicacion": "rápido"
+        },
+        {
+          "n": 5,
+          "texto": "Hola Doby",
+          "indicacion": "despacio"
+        },
+        {
+          "n": 6,
+          "texto": "Hola Doby",
+          "indicacion": "alegre"
+        },
+        {
+          "n": 7,
+          "texto": "Hola Doby",
+          "indicacion": "cansado o con sueño"
+        },
+        {
+          "n": 8,
+          "texto": "Hola Doby",
+          "indicacion": "en voz baja, sin susurrar"
+        },
+        {
+          "n": 9,
+          "texto": "Hola Doby",
+          "indicacion": "más fuerte, como llamando desde lejos"
+        },
+        {
+          "n": 10,
+          "texto": "¿Hola Doby?",
+          "indicacion": "como preguntando"
+        },
+        {
+          "n": 11,
+          "texto": "Hola Doby",
+          "indicacion": "con el celular a un brazo de distancia"
+        },
+        {
+          "n": 12,
+          "texto": "Hola Doby",
+          "indicacion": "con el celular a un brazo de distancia"
+        },
+        {
+          "n": 13,
+          "texto": "Hola Doby",
+          "indicacion": "normal"
+        },
+        {
+          "n": 14,
+          "texto": "Hola Doby",
+          "indicacion": "normal"
+        },
+        {
+          "n": 15,
+          "texto": "Hola Doby",
+          "indicacion": "normal"
+        }
+      ]
+    },
+    "B": {
+      "descripcion": "Órdenes para Doby",
+      "segmentar": true,
+      "frases": [
+        {
+          "n": 1,
+          "texto": "Prende el ventilador."
+        },
+        {
+          "n": 2,
+          "texto": "Apaga el ventilador."
+        },
+        {
+          "n": 3,
+          "texto": "Enciende el ventilador, por favor."
+        },
+        {
+          "n": 4,
+          "texto": "Desactiva el ventilador."
+        },
+        {
+          "n": 5,
+          "texto": "Prende el bombillo."
+        },
+        {
+          "n": 6,
+          "texto": "Apaga el bombillo."
+        },
+        {
+          "n": 7,
+          "texto": "Enciende la luz."
+        },
+        {
+          "n": 8,
+          "texto": "Apaga la luz, por favor."
+        },
+        {
+          "n": 9,
+          "texto": "Prende el carro."
+        },
+        {
+          "n": 10,
+          "texto": "Apaga el carro."
+        },
+        {
+          "n": 11,
+          "texto": "Enciende el motor."
+        },
+        {
+          "n": 12,
+          "texto": "Detén el motor."
+        },
+        {
+          "n": 13,
+          "texto": "Apaga todo."
+        },
+        {
+          "n": 14,
+          "texto": "Desconecta todos los aparatos."
+        },
+        {
+          "n": 15,
+          "texto": "Doby, ya puedes descansar."
+        },
+        {
+          "n": 16,
+          "texto": "Vete a dormir, Doby."
+        },
+        {
+          "n": 17,
+          "texto": "Hola Doby, prende el bombillo."
+        },
+        {
+          "n": 18,
+          "texto": "Hola Doby, apaga el ventilador."
+        },
+        {
+          "n": 19,
+          "texto": "Hola Doby, enciende el carro."
+        },
+        {
+          "n": 20,
+          "texto": "Hola Doby, apaga todo."
+        },
+        {
+          "n": 21,
+          "texto": "Doby, ¿me escuchas?"
+        },
+        {
+          "n": 22,
+          "texto": "Gracias, Doby."
+        }
+      ]
+    },
+    "C": {
+      "descripcion": "Habla libre (1 a 2 min)",
+      "segmentar": false,
+      "frases": []
+    },
+    "D": {
+      "descripcion": "Frases para clonar la voz",
+      "segmentar": true,
+      "frases": [
+        {
+          "n": 1,
+          "texto": "Hola, soy Doby, el asistente del grupo. Estoy listo para ayudarte con lo que necesites."
+        },
+        {
+          "n": 2,
+          "texto": "Ya encendí el bombillo de la sala; si quieres, también puedo prender el ventilador."
+        },
+        {
+          "n": 3,
+          "texto": "¿Quieres que apague todos los aparatos? Dímelo y lo hago enseguida."
+        },
+        {
+          "n": 4,
+          "texto": "El perro de la señora Rosario corrió por la carretera hasta llegar al río."
+        },
+        {
+          "n": 5,
+          "texto": "Mañana temprano viajaremos a Facatativá en un bus lleno de estudiantes."
+        },
+        {
+          "n": 6,
+          "texto": "Julio preparó chocolate caliente con queso mientras llovía sobre el jardín."
+        },
+        {
+          "n": 7,
+          "texto": "¡Qué alegría escucharte! Hace rato que nadie me llamaba."
+        },
+        {
+          "n": 8,
+          "texto": "Exactamente a las seis y cuarto, el zapatero guardó sus herramientas en la caja."
+        },
+        {
+          "n": 9,
+          "texto": "Voy a descansar un momento. Cuando me necesites, solo di: hola Doby."
+        },
+        {
+          "n": 10,
+          "texto": "No reconozco tu voz, así que no puedo obedecer esa orden. Lo siento mucho."
+        },
+        {
+          "n": 11,
+          "texto": "La computadora recibe el audio, entiende la intención y responde en menos de un segundo."
+        },
+        {
+          "n": 12,
+          "texto": "Hoy aprendimos procesamiento de lenguaje natural, redes neuronales y reconocimiento de voz."
+        }
+      ]
+    },
+    "E": {
+      "descripcion": "Lectura continua",
+      "segmentar": false,
+      "texto": "Doby nació como un proyecto de clase, pero poco a poco se convirtió en algo más. Al principio solo era una placa pequeña, un micrófono y un parlante viejo sacado de un radio. Nadie sabía si iba a funcionar. Después de muchas pruebas, cables sueltos y noches sin dormir, por fin escuchó su nombre y respondió. Hoy Doby puede encender el bombillo, prender el ventilador y mover un pequeño carro. Sin embargo, todavía le falta aprender algo importante: reconocer quién le está hablando. Para eso necesita escuchar muchas veces la voz de cada integrante del grupo, con sus pausas, su acento y su manera de pronunciar. Así, cuando alguien desconocido diga “hola Doby”, él sabrá que no debe obedecer. Y cuando uno de nosotros lo llame, podrá contestarnos con nuestra propia voz. Parece magia, pero en realidad son matemáticas, datos y mucha paciencia."
+    }
+  }
+}

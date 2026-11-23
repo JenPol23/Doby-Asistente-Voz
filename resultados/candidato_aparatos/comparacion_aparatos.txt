@@ -1,0 +1,112 @@
+Modelo ACTUAL: modelos/base.joblib   CANDIDATO: modelos/candidato_aparatos/base.joblib   UMBRAL de Doby: 0.5
+
+=== 1. Test nuevo (222 frases) ===
+  Referencia (modelo actual en SU test, 24-sep): accuracy 0.9865, F1 macro 0.9871
+  ACTUAL    accuracy 0.9910   F1 macro 0.9931
+  CANDIDATO accuracy 0.9730   F1 macro 0.9756
+  OJO: 91 de 222 frases del test nuevo estaban en el train del modelo ACTUAL (las vio al entrenar).
+  ACTUAL    solo en las 131 que el ACTUAL no vio: accuracy 0.9847   F1 macro 0.9896
+  CANDIDATO solo en las 131 que el ACTUAL no vio: accuracy 0.9924   F1 macro 0.9948
+
+=== 2. Frases de la demo (22) ===
+  ACTUAL    22/22   con confianza < 0.5: ['¿Cómo va a estar el tráfico hoy?']
+  CANDIDATO 22/22   con confianza < 0.5: ninguna
+
+=== 3a. Cautin y plancha CON verbo (criterio: intencion correcta, mediana >= 0.7, ninguna < 0.5) ===
+  frase                                          esperada                               ACTUAL                CANDIDATO  criterio
+  Prende el cautín.                              encender                      encender  0.88          encender  0.87  OK
+  Enciende el cautín.                            encender                      encender  0.95          encender  0.95  OK
+  Préndeme el cautín.                            encender                      encender  0.85          encender  0.85  OK
+  Enciende el soldador.                          encender                      encender  0.95          encender  0.89  OK
+  Prende el soldador.                            encender                      encender  0.87          encender  0.75  OK
+  Prende la plancha.                             encender                      encender  0.65          encender  0.78  OK  <==
+  Enciende la plancha.                           encender                      encender  0.86          encender  0.92  OK
+  Prende la plancha del pelo.                    encender                      encender  0.59          encender  0.75  OK
+  Enciende la planchita.                         encender                      encender  0.84          encender  0.84  OK
+  Prende la alisadora.                           encender                      encender  0.63          encender  0.56  OK
+  Activa la plancha.                             encender                      encender  0.32          encender  0.53  OK
+  Prende el cautín y la plancha.                 encender                      encender  0.74          encender  0.81  OK
+  Prende la plancha y el ventilador.             encender                      encender  0.68          encender  0.73  OK
+  Enciende el bombillo y el cautín.              encender                      encender  0.90          encender  0.89  OK
+  Voy a soldar, prende el cautín.                encender                      encender  0.73          encender  0.72  OK
+  Me voy a alisar el pelo, prende la plancha.    encender                      encender  0.52          encender  0.66  OK
+  Apaga el cautín.                               apagar                          apagar  0.90            apagar  0.84  OK
+  Apaga el soldador.                             apagar                          apagar  0.88            apagar  0.86  OK  <==
+  Apágame el soldador.                           apagar                          apagar  0.63            apagar  0.78  OK
+  Apaga la plancha.                              apagar                          apagar  0.79            apagar  0.82  OK
+  Apaga la plancha del pelo.                     apagar                          apagar  0.75            apagar  0.75  OK
+  Apaga la planchita.                            apagar                          apagar  0.78            apagar  0.67  OK
+  Apaga la alisadora.                            apagar                          apagar  0.78            apagar  0.70  OK
+  Desactiva el cautín.                           apagar                          apagar  0.68            apagar  0.64  OK
+  Apaga el cautín y la plancha.                  apagar                          apagar  0.84            apagar  0.75  OK
+  Ya terminé de soldar, apaga el cautín.         apagar                          apagar  0.79            apagar  0.81  OK
+  ¿Está prendido el cautín?                      consultar_estado      consultar_estado  0.95  consultar_estado  0.89  OK
+  ¿Está encendida la plancha?                    consultar_estado      consultar_estado  0.69  consultar_estado  0.84  OK
+  El cautín sigue encendido.                     consultar_estado      consultar_estado  0.88  consultar_estado  0.86  OK
+  ¿La plancha está apagada?                      consultar_estado      consultar_estado  0.54  consultar_estado  0.86  OK
+  ¿Cómo está el soldador?                        consultar_estado      consultar_estado  0.80  consultar_estado  0.53  OK
+  CANDIDATO: mediana 0.81, minima 0.53, fallos ninguno  -> CUMPLE
+
+=== 3b. SIN verbo (criterio: confianza < 0.5 o intencion que no sea encender/apagar) ===
+  frase                                          esperada                               ACTUAL                CANDIDATO  criterio
+  El soldador.                                   (no encender/apagar)          encender  0.27            apagar  0.31  OK  <==
+  El cautín.                                     (no encender/apagar)  fuera_de_dominio  0.37          encender  0.35  OK
+  La plancha.                                    (no encender/apagar)  fuera_de_dominio  0.45          encender  0.27  OK
+  La planchita.                                  (no encender/apagar)  fuera_de_dominio  0.46  fuera_de_dominio  0.30  OK
+  La alisadora.                                  (no encender/apagar)  fuera_de_dominio  0.46  fuera_de_dominio  0.33  OK
+  La plancha del pelo.                           (no encender/apagar)  fuera_de_dominio  0.48          encender  0.32  OK
+  El ventilador.                                 (no encender/apagar)            apagar  0.37            apagar  0.38  OK
+  El bombillo.                                   (no encender/apagar)          encender  0.29          encender  0.27  OK
+  CANDIDATO: CUMPLE
+
+=== 3c. Ordenes que ya funcionaban (control) ===
+  frase                                          esperada                               ACTUAL                CANDIDATO  criterio
+  Prende todo.                                   regla: encender_todo          encender  0.52          encender  0.46  OK
+  Apaga todo.                                    apagar_todo                apagar_todo  0.97       apagar_todo  0.98  OK
+  Apágalo.                                       apagar                          apagar  0.68            apagar  0.63  OK
+  ¿Qué está encendido?                           consultar_estado      consultar_estado  0.98  consultar_estado  0.96  OK
+  Prende el ventilador.                          encender                      encender  0.85          encender  0.81  OK
+  Apaga el bombillo.                             apagar                          apagar  0.83            apagar  0.83  OK
+  Enciende el ventilador.                        encender                      encender  0.93          encender  0.92  OK
+  Apaga la luz.                                  apagar                          apagar  0.96            apagar  0.97  OK
+  CANDIDATO: todas bien
+
+=== 4. Transcripciones REALES de Whisper (paso 2; distintas, con el aparato bien detectado) ===
+  id   frase                                    n esperada                    min  mediana  <umbral  intenciones del CANDIDATO
+  n01  Prende el cautín.                        3 encender                   0.39     0.42        2  fuera_de_dominio x1, encender x2
+         - 'para el cautin' -> fuera_de_dominio 0.39
+         - 'pre el cautin' -> encender 0.42
+  n02  Enciende el cautín.                      2 encender                   0.35     0.65        1  encender x2
+         - 'el cautin' -> encender 0.35
+  n03  Apaga el cautín.                         1 apagar                     0.84     0.84        0  apagar x1
+  n04  Enciende el soldador.                    2 encender                   0.42     0.66        1  encender x2
+         - 'inciendo el soldador' -> encender 0.42
+  n05  Apaga el soldador.                       5 apagar                     0.31     0.37        3  apagar x4, fuera_de_dominio x1
+         - 'baja el soldador' -> fuera_de_dominio 0.37
+         - 'el soldador' -> apagar 0.31
+         - 'venga el soldador' -> apagar 0.33
+  n06  Prende la plancha.                       1 encender                   0.78     0.78        0  encender x1
+  n07  Enciende la plancha.                     1 encender                   0.92     0.92        0  encender x1
+  n08  Apaga la plancha.                        3 apagar                     0.31     0.39        2  apagar x2, fuera_de_dominio x1
+         - 'a pagar la plancha' -> apagar 0.39
+         - 'a para la plancha' -> fuera_de_dominio 0.31
+  n09  Enciende la plancha del pelo.            1 encender                   0.88     0.88        0  encender x1
+  n10  Apaga la planchita.                      1 apagar                     0.67     0.67        0  apagar x1
+  n12  ¿Está prendido el cautín?                1 consultar_estado           0.89     0.89        0  consultar_estado x1
+  n13  ¿Está encendida la plancha?              2 consultar_estado           0.77     0.80        0  consultar_estado x2
+  n14  Prende el cautín y la plancha.           1 encender                   0.81     0.81        0  encender x1
+  n15  Prende la plancha y el ventilador.       2 encender                   0.70     0.72        0  encender x2
+  n16  El cautín.                               2 (sin verbo)                0.30     0.32        2  fuera_de_dominio x1, encender x1
+         - 'cautin' -> fuera_de_dominio 0.30
+         - 'el cautin' -> encender 0.35
+  n17  La plancha.                              1 (sin verbo)                0.27     0.27        1  encender x1
+         - 'la plancha' -> encender 0.27
+  c01  Prende todo.                             2 regla: encender_todo       0.46     0.65        1  apagar_todo x1, encender x1
+         - 'prende todo' -> encender 0.46
+  c02  Apaga todo.                              4 apagar_todo                0.25     0.92        1  apagar x1, apagar_todo x2, fuera_de_dominio x1
+         - 'apaga' -> apagar 0.88
+         - 'pagato' -> fuera_de_dominio 0.25
+  c03  Apágalo.                                 1 apagar                     0.63     0.63        0  apagar x1
+  c04  ¿Qué está encendido?                     4 consultar_estado           0.70     0.95        0  consultar_estado x4
+  c05  Prende el ventilador.                    1 encender                   0.81     0.81        0  encender x1
+  c06  Apaga el bombillo.                       1 apagar                     0.83     0.83        0  apagar x1
